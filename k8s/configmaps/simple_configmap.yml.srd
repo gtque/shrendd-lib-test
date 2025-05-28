@@ -1,0 +1,11 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: "${LIB_APP_TEST_NAME}"
+  namespace: "${LIB_APP_TEST_NAMESPACE}"
+  labels:
+    app.kubernetes.io/name: "${LIB_APP_TEST_NAME}"
+    app.kubernetes.io/managed-by: "${LIB_APP_TEST_MANAGER}"
+    app.kubernetes.io/version: "$(getConfig "lib.app.test.version")"
+    app.kubernetes.io/component: "${LIB_APP_TEST_NAME}"
+    app.kubernetes.io/part-of: "${LIB_APP_TEST_NAME}"
