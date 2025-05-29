@@ -1,3 +1,3 @@
 flour, sugar, baking powder, baking soda, salt
-melted butter (or $(getConfig "lib.butter.alternative")), milk, eggs, vanilla
+melted butter (or $(getConfig "lib.butter.alternative2")), milk, eggs, vanilla
 mix, bake, eat

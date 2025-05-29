@@ -1,4 +1,4 @@
 $(importShrendd "shrendd-lib-test:k8s/configmaps/simple_configmap.yml.srd")
 $(importShrendd "shrendd-lib-test:k8s/scripts/some-script.sh.srd:K8sScript")
 metadata:
-    name: "${LIB_APP_TEST_NAME}-scripts"
+    name: "${LIB_APP_TEST_NAME2}-scripts"
