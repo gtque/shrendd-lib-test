@@ -1,3 +1,3 @@
 #!/usr/bin/env sh
 
-echo "\"$(getConfig "lib.script.message2")\""
+echo "\"$(getConfig "lib.script.message")\""
