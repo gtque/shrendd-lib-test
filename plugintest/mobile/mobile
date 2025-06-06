@@ -1,0 +1,8 @@
+#!/bin/bash
+
+function mobile {
+  cat << 'EndOfYml'
+mobile:
+  greeting: "well hello there..."
+EndOfYml
+}

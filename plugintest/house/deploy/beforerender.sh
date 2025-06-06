@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo $(shrenddOrDefault "shanty.greeting")
+echo "house greeting: $(shrenddOrDefault "house.greeting")"

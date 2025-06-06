@@ -1,0 +1,8 @@
+#!/bin/bash
+
+function crib {
+  cat << 'EndOfYml'
+crib:
+  greeting: "well hello there..."
+EndOfYml
+}
