@@ -1,0 +1,8 @@
+#!/bin/bash
+
+function shanty{
+  cat << 'EndOfYml'
+shanty:
+  greeting: "good luck"
+EndOfYml
+}
